@@ -1,0 +1,91 @@
+* {
+	
+	margin: 0px;
+	padding: 0px;
+	font-family: Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	
+}
+
+#headBox {
+
+	background-color:black;
+	padding: 2px;
+	color : white;
+	height:100px;
+	position:fixed;
+	width:100%;
+	top:0px;
+	
+	
+}
+.choices{
+	 padding:0 55px 0 55px;
+	 background-color:green;
+	
+	 color : white;
+	 font-size:24px;
+	 
+	
+	
+	}
+#headContent{
+	
+	margin-left: 120px;
+	margin-top: 10px;
+	text-align:left;
+	width: 400px;
+	height: 90px;
+	border: 2px 2px 2px red;
+	font-family: Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	
+	
+	
+}
+#menuBar{
+	
+	float:right;
+	margin-top:-40px;
+	font-family: Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size:18px;
+	color:white;
+	
+}
+.menuItems{
+	cursor:pointer;
+}
+#contentPart{
+	
+	margin-top:110px;
+	text-align:center;
+	
+	
+}
+.Info{
+	
+	margin-left:10px;
+	margin-right:10px;
+	margin-top:10px;
+	text-align:justify;
+	
+}
+
+.InfoTabs{
+	background-color:black; 
+	color:white;
+	text-align:center; 
+	margin-top:10px;
+	
+	
+}
+.contriItems{
+	margin:10px;
+	 background: #f9f9f9;
+	
+	
+}
+body{
+	
+	text-align:center;
+	background-color:#F5F5DC;
+	
+}
