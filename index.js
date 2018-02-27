@@ -1,4 +1,4 @@
-window.smoothScroll = function(target) {
+smoothScroll = function(target) {
     var scrollContainer = target;
     do { //find scroll container
         scrollContainer = scrollContainer.parentNode;
@@ -21,9 +21,40 @@ window.smoothScroll = function(target) {
         setTimeout(function(){ scroll(c, a, b, i); }, 20);
     }
     // start scrolling
-    scroll(scrollContainer, scrollContainer.scrollTop, targetY-100, 0);
+    scroll(scrollContainer, scrollContainer.scrollTop, targetY-104, 0);
 }
-var mItems = document.getElementsByClassName("menuItems");
+
+var mItemsN = document.getElementsByClassName("national");
+
+for(var i=0;i<mItemsN.length;i++){
+	console.log(mItemsN[i]);
+	mItemsN[i].onmouseover = function(evt){
+		document.getElementById('nat').style.backgroundColor="blue";
+	};
+	mItemsN[i].onmouseout = function(evt){
+		document.getElementById('nat').style.backgroundColor="";
+	};
+	
+	
+}
+
+var mItemsI = document.getElementsByClassName("international");
+
+for(var i=0;i<mItemsI.length;i++){
+	console.log(mItemsI[i]);
+	mItemsI[i].onmouseover = function(evt){
+		document.getElementById('inat').style.backgroundColor="blue";
+	};
+	mItemsI[i].onmouseout = function(evt){
+		document.getElementById('inat').style.backgroundColor="";
+	};
+	
+	
+}
+
+
+
+var mItems = document.getElementsByClassName("menuItemsH");
 
 for(var i=0;i<mItems.length;i++){
 	console.log(mItems[i]);

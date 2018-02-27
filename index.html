@@ -18,9 +18,9 @@
 			<div id="menuBar">
 				<table cellspacing="10px">
 				<tr>
-				<td class="menuItems" id="About_Source" onclick="smoothScroll(document.getElementById('About_Destination'))">About</td>
-				<td class="menuItems" id="Contributors_Source" onclick="smoothScroll(document.getElementById('Contributors_Destination'))">Contributors</td>
-				<td class="menuItems" id="References_Source" onclick="smoothScroll(document.getElementById('References_Destination'))">References</td>
+				<td class="menuItemsH menuItems" id="About_Source" onclick="smoothScroll(document.getElementById('About_Destination'))">About</td>
+				<td class="menuItemsH menuItems" id="Contributors_Source" onclick="smoothScroll(document.getElementById('Contributors_Destination'))">Contributors</td>
+				<td class="menuItemsH menuItems" id="References_Source" onclick="smoothScroll(document.getElementById('References_Destination'))">References</td>
 				</tr>
 				</table>
 			</div>
@@ -33,11 +33,11 @@
 		<h3>Make the right choice by analysing data with us. First choose one of the following</h3>
 			
 		<br/><br/>
-		<div align="center">
+		<div align="center" id="aman">
 			<table>
 				<tr>
-					<td class="choices menuItems">National Migration</td>
-					<td class="choices menuItems">International Migration</td>
+					<td class="choices menuItems national" id="nat"><a class="menuItems" href="./nationalMig.html">National Migration</a></td>
+					<td class="choices menuItems international"  id="inat"><a class="menuItems" href="./internationalMig.html">International Migration</a></td>
 			
 				</tr>
 			</table>
@@ -59,7 +59,7 @@
 			the countries/states and will represent that data with the help of charts and other graphic representation.
 		</p><br/>
 		<p class="Info">
-			User will get two options to choose : National Migratation and International Migratation.
+			User will get two options to choose : National Migration and International Migration.
 		</p>
 
 		</div>
