@@ -5,7 +5,7 @@ smoothScroll = function(target) {
         console.log(scrollContainer.scrollTop);
 		if (!scrollContainer) return;
         scrollContainer.scrollTop += 1;
-		
+ 		
 		
     } while (scrollContainer.scrollTop == 0);
 
